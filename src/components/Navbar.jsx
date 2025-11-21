@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { navLinks } from '../constants';
-
 
 const Navbar = ({ searchQuery, onSearchChange, onSearchClear }) => {
     const [scrolled, setScrolled] = useState(false);
     const [searchOpen, setSearchOpen] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -15,7 +15,6 @@ const Navbar = ({ searchQuery, onSearchChange, onSearchClear }) => {
         }
 
         window.addEventListener('scroll', handleScroll);
-
         return () => window.removeEventListener('scroll', handleScroll);
     }, [])
 
@@ -30,29 +29,34 @@ const Navbar = ({ searchQuery, onSearchChange, onSearchClear }) => {
         e.preventDefault();
         console.log('Searching for:', searchQuery);
     }
-    
+
     const handleInputChange = (e) => {
         onSearchChange(e.target.value);
-        console.log('🔤 Typing:', e.target.value);
     }
 
     const toggleMobileMenu = () => {
         setMobileMenuOpen(!mobileMenuOpen);
     }
 
+    // Check if link is active
+    const isActive = (path) => location.pathname === path;
+
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
             <div className='inner'>
-                <a className="logo" href="#hero">Find Discounts!</a>
+                <Link className="logo" to="/">Find Discounts!</Link>
                 
                 <nav className='desktop'>
                     <ul>
                         {navLinks.map(({ link, name }) => (
                             <li key={name} className='group'>
-                                <a href={link}>
+                                <Link 
+                                    to={link}
+                                    className={isActive(link) ? 'active' : ''}
+                                >
                                     <span>{name}</span>
                                     <span className='underline' />
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -95,7 +99,6 @@ const Navbar = ({ searchQuery, onSearchChange, onSearchClear }) => {
                     )}
                 </div>
 
-                {/* Mobile Menu Button */}
                 <button className='mobile-menu-btn' onClick={toggleMobileMenu}>
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" 
@@ -124,15 +127,18 @@ const Navbar = ({ searchQuery, onSearchChange, onSearchClear }) => {
                 </button>
             </div>
 
-            {/* Mobile Menu */}
             {mobileMenuOpen && (
                 <nav className='mobile-menu'>
                     <ul>
                         {navLinks.map(({ link, name }) => (
                             <li key={name}>
-                                <a href={link} onClick={() => setMobileMenuOpen(false)}>
+                                <Link 
+                                    to={link} 
+                                    onClick={() => setMobileMenuOpen(false)}
+                                    className={isActive(link) ? 'active' : ''}
+                                >
                                     {name}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>

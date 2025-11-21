@@ -50,22 +50,30 @@
   {
     name:"Canva",
     imgPath:"/images/logos/canva.png",
-  }
+  },
+  {
+    name:"Samsung",
+    imgPath:"/images/logos/samsung.png"
+  },
+  {
+    name:"Asus",
+    imgPath:"/images/logos/asus.png"
+  },
   
 ];
 
 const navLinks = [
     {
-        name:"Home",
-        link:"#hero",
+        name: "Home",
+        link: "/",
     },
     {
-        name:"Categories",
-        link:"#categories",
+        name: "Categories",
+        link: "/categories",
     },
     {
-        name:"Offers",
-        link:"#offers",
+        name: "Offers",
+        link: "/offers",
     }
 ]
 
