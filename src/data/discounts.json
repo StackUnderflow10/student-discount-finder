@@ -1,0 +1,253 @@
+[
+  {
+    "id": 1,
+    "name": "GitHub Student Developer Pack",
+    "category": "software",
+    "discount": "Free premium tools",
+    "description": "Access to professional developer tools like GitHub Copilot, Canva, MongoDB, JetBrains, Namecheap and more.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://education.github.com/pack"
+  },
+  {
+    "id": 2,
+    "name": "Spotify Premium Student",
+    "category": "entertainment",
+    "discount": "50% off",
+    "description": "Get Spotify Premium for a reduced student price.",
+    "verification": "yes",
+    "location": "India",
+    "link": "https://www.spotify.com/in/student/"
+  },
+  {
+    "id": 3,
+    "name": "Microsoft Office 365 for Students",
+    "category": "software",
+    "discount": "Free",
+    "description": "Get Word, Excel, PowerPoint, Teams and OneDrive for free using your student email.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.microsoft.com/en-in/education/products/office"
+  },
+  {
+    "id": 4,
+    "name": "Amazon Prime Student",
+    "category": "entertainment",
+    "discount": "Free trial + discounted rate",
+    "description": "Prime Video, Music, delivery benefits at a discounted student rate.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.amazon.com/prime/student"
+  },
+  {
+    "id": 5,
+    "name": "Notion Student Plan",
+    "category": "productivity",
+    "discount": "Free Notion Plus",
+    "description": "Students get Notion Plus for free using their .edu email.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.notion.so/students"
+  },
+  {
+    "id": 6,
+    "name": "Canva Pro for Students",
+    "category": "design",
+    "discount": "Free",
+    "description": "Students can access Canva Pro through their school or college domain.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.canva.com/education/"
+  },
+  {
+    "id": 7,
+    "name": "JetBrains Student License",
+    "category": "software",
+    "discount": "Free tools",
+    "description": "Get free access to IntelliJ IDEA, PyCharm, WebStorm and more.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.jetbrains.com/community/education/#students"
+  },
+  {
+    "id": 8,
+    "name": "Adobe Creative Cloud Student",
+    "category": "design",
+    "discount": "Up to 60% off",
+    "description": "Discounts on Photoshop, Illustrator, Premiere Pro and Adobe Suite.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.adobe.com/creativecloud/buy/students.html"
+  },
+  {
+    "id": 9,
+    "name": "Apple Education Pricing",
+    "category": "electronics",
+    "discount": "Varies",
+    "description": "Discounts on MacBooks, iPads and Apple accessories.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.apple.com/us-hed/shop"
+  },
+  {
+    "id": 10,
+    "name": "Dell Student Laptop Discount",
+    "category": "electronics",
+    "discount": "10%–20% off",
+    "description": "Exclusive student pricing on Dell laptops and monitors.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.dell.com/en-in/lp/student-laptops"
+  },
+  {
+    "id": 11,
+    "name": "HP Student Store",
+    "category": "electronics",
+    "discount": "Special student pricing",
+    "description": "Discounted laptops and accessories for students.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.hp.com/us-en/shop/cv/students"
+  },
+  {
+    "id": 12,
+    "name": "Autodesk Student License",
+    "category": "software",
+    "discount": "Free",
+    "description": "Free access to AutoCAD, Maya, Fusion360 and more.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.autodesk.com/education/edu-software/overview"
+  },
+  {
+    "id": 13,
+    "name": "Unity Student Plan",
+    "category": "software",
+    "discount": "Free",
+    "description": "Unity Pro tools for students including cloud storage and assets.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://unity.com/products/unity-student"
+  },
+  {
+    "id": 14,
+    "name": "Figma Education Plan",
+    "category": "design",
+    "discount": "Free",
+    "description": "Figma Professional for free for students.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.figma.com/education/"
+  },
+  {
+    "id": 15,
+    "name": "Coursera Student Financial Aid",
+    "category": "education",
+    "discount": "Free or 90% off",
+    "description": "Students can apply for financial aid for premium courses.",
+    "verification": "optional",
+    "location": "global",
+    "link": "https://www.coursera.org"
+  },
+  {
+    "id": 16,
+    "name": "Udemy Student Deals",
+    "category": "education",
+    "discount": "Up to 90% off",
+    "description": "Regular discounts on tech and business courses.",
+    "verification": "no",
+    "location": "global",
+    "link": "https://www.udemy.com"
+  },
+  {
+    "id": 17,
+    "name": "Google Cloud Student Credits",
+    "category": "software",
+    "discount": "Free credits",
+    "description": "Students get $50–$100 in GCP credits.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://edu.google.com/programs/credits/"
+  },
+  {
+    "id": 18,
+    "name": "Amazon Web Services Educate",
+    "category": "software",
+    "discount": "Free credits",
+    "description": "AWS provides free computing credits for students.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://aws.amazon.com/education/awseducate/"
+  },
+  {
+    "id": 19,
+    "name": "YouTube Premium Student",
+    "category": "entertainment",
+    "discount": "Discounted monthly plan",
+    "description": "Ads-free YouTube and YouTube Music plan for students.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.youtube.com/premium/student"
+  },
+  {
+    "id": 20,
+    "name": "LinkedIn Premium Career Student",
+    "category": "productivity",
+    "discount": "50% off",
+    "description": "Discounted access to LinkedIn Premium and learning.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.linkedin.com/premium/"
+  },
+  {
+    "id": 21,
+    "name": "Samsung Student Offers",
+    "category": "electronics",
+    "discount": "Varies",
+    "description": "Special pricing on Samsung phones, laptops and tablets.",
+    "verification": "yes",
+    "location": "India",
+    "link": "https://www.samsung.com/in/student-advantage/"
+  },
+  {
+    "id": 22,
+    "name": "Lenovo Student Store",
+    "category": "electronics",
+    "discount": "Up to 20% off",
+    "description": "Student-only offers on ThinkPads, Ideapads and Legion laptops.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.lenovo.com/in/en/d/student-discounts"
+  },
+  {
+    "id": 23,
+    "name": "Domino’s Student Offers",
+    "category": "food",
+    "discount": "20% off",
+    "description": "Special pizza discount for students through UNiDAYS.",
+    "verification": "yes",
+    "location": "India",
+    "link": "https://www.dominos.co.in"
+  },
+  {
+    "id": 24,
+    "name": "Swiggy Student Discount",
+    "category": "food",
+    "discount": "10–30% off",
+    "description": "Student-exclusive deals on Swiggy for partner colleges.",
+    "verification": "yes",
+    "location": "India",
+    "link": "https://www.swiggy.com"
+  },
+  {
+    "id": 25,
+    "name": "OYO Student Travel Deals",
+    "category": "travel",
+    "discount": "Up to 40% off",
+    "description": "Student-specific hotel deals on OYO.",
+    "verification": "yes",
+    "location": "India",
+    "link": "https://www.oyorooms.com"
+  }
+]
+

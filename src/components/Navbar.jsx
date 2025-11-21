@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import { navLinks } from '../constants';
 
-const Navbar = () => {
+
+const Navbar = ({ searchQuery, onSearchChange, onSearchClear }) => {
     const [scrolled, setScrolled] = useState(false);
     const [searchOpen, setSearchOpen] = useState(false);
-    const [searchQuery, setSearchQuery] = useState('');
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,14 +22,18 @@ const Navbar = () => {
     const handleSearchToggle = () => {
         setSearchOpen(!searchOpen);
         if (searchOpen) {
-            setSearchQuery('');
+            onSearchClear();
         }
     }
 
     const handleSearchSubmit = (e) => {
         e.preventDefault();
         console.log('Searching for:', searchQuery);
-        //search logic to be added here
+    }
+    
+    const handleInputChange = (e) => {
+        onSearchChange(e.target.value);
+        console.log('🔤 Typing:', e.target.value);
     }
 
     const toggleMobileMenu = () => {
@@ -59,7 +64,7 @@ const Navbar = () => {
                             <input
                                 type='text'
                                 value={searchQuery}
-                                onChange={(e) => setSearchQuery(e.target.value)}
+                                onChange={handleInputChange}
                                 placeholder='Search Offers....'
                                 autoFocus
                                 className='search-input'
