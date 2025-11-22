@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { useNavigate  } from 'react-router-dom';
 import discountsData from '../data/discounts.json'
+import { MonitorCloud, Clapperboard, Pizza, MonitorSmartphone, PaintbrushVertical, ChartNoAxesCombined, BookText, Plane } from 'lucide-react';
 
 const Categories = () => {
 
@@ -20,14 +21,14 @@ const Categories = () => {
 
     function getCategoryIcon(category){
         const icons = {
-      software: '💻',
-      entertainment: '🎬',
-      food: '🍕',
-      electronics: '📱',
-      design: '🎨',
-      productivity: '📊',
-      education: '📚',
-      travel: '✈️'
+      software: <MonitorCloud />,
+      entertainment: <Clapperboard />,
+      food: <Pizza />,
+      electronics: <MonitorSmartphone />,
+      design: <PaintbrushVertical />,
+      productivity: <ChartNoAxesCombined />,
+      education: <BookText />,
+      travel: <Plane />
         }
         return icons[category] || '🎁';
     };
@@ -48,17 +49,17 @@ const Categories = () => {
             <div className='categories-grid'>
                 {categoryList.map((category)=>(
                     <div
-                    key={category.name}
-                    className='category-card'
-                    onClick={()=> handleCategoryClick(category.name)}
+                        key={category.name}
+                        className='category-card'
+                        data-category={category.name}
+                        onClick={()=> handleCategoryClick(category.name)}
                     >
                         <div className='category-icon'>{category.icon}</div>
-                            <h3>{category.name}</h3>
-                            <p className='category-count'>
-                                {category.count} offer{category.count!==1?'s' : ''}
-                            </p>
-                            <button className='view-btn'>View All</button>
-                        
+                        <h3>{category.name}</h3>
+                        <p className='category-count'>
+                            {category.count} offer{category.count!==1?'s' : ''}
+                        </p>
+                        <button className='view-btn'>View All</button>
                     </div>
                 ))}
             </div>

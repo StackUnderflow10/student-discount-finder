@@ -290,7 +290,7 @@ html, body {
 
 @media (min-width: 768px) {
   .marquee-item {
-    width: 10rem;
+    width: 10rem; 
   }
 }
 
@@ -731,8 +731,11 @@ html, body {
 }
 
 .category-icon {
-  font-size: 4rem;
+  /* font-size: 4rem; */
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: bounce 2s infinite;
 }
 
@@ -827,6 +830,11 @@ html, body {
 
 /* ========== RESPONSIVE ========== */
 @media (max-width: 768px) {
+
+  .category-icon svg {
+    width: 3rem;
+    height: 3rem;
+  }
   .offers-header,
   .categories-header {
     padding: 100px 15px 30px;
@@ -842,7 +850,8 @@ html, body {
     gap: 1.5rem;
   }
 
-  .category-icon {
+  /* .category-icon {
     font-size: 3rem;
-  }
+  } */
 }
+
