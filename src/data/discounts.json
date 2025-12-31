@@ -17,7 +17,7 @@
     "description": "Get Spotify Premium for a reduced student price.",
     "verification": "yes",
     "location": "India",
-    "link": "https://www.spotify.com/in/student/"
+    "link": "https://www.spotify.com/in-en/student/"
   },
   {
     "id": 3,
@@ -248,6 +248,95 @@
     "verification": "yes",
     "location": "India",
     "link": "https://www.oyorooms.com"
+  },
+  {
+    "id": 26,
+    "name": "Indigo Student Discount",
+    "category": "travel",
+    "discount": "6% off base fare",
+    "description": "Exclusive student discount on domestic flights plus extra baggage allowance.",
+    "verification": "yes",
+    "location": "India",
+    "link": "https://www.goindigo.in/add-on-services/student-discount.html"
+  },
+  {
+    "id": 27,
+    "name": "Air India Student Discount",
+    "category": "travel",
+    "discount": "50% off base fare",
+    "description": "Massive savings for students traveling within India on Air India flights.",
+    "verification": "yes",
+    "location": "India",
+    "link": "https://www.airindia.com/in/en/book/exclusive-deals/student-flight-offer.html"
+  },
+  {
+    "id": 28,
+    "name": "Evernote Student Discount",
+    "category": "productivity",
+    "discount": "40% off",
+    "description": "Save on Evernote Personal plan for a full year of organized note-taking.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://evernote.com/students"
+  },
+  {
+    "id": 29,
+    "name": "Uber India Student Deals",
+    "category": "travel",
+    "discount": "Varies",
+    "description": "Occasional student-specific promos for college commutes in major cities.",
+    "verification": "no",
+    "location": "India",
+    "link": "https://www.uber.com/in/en/"
+  },
+  {
+    "id": 30,
+    "name": "Wolfram Alpha Notebook Edition",
+    "category": "education",
+    "discount": "Free/Discounted",
+    "description": "The ultimate computational engine for math and science students.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.wolframalpha.com/pro/students/"
+  },
+  {
+    "id": 31,
+    "name": "Zomato Student Pro Deals",
+    "category": "food",
+    "discount": "Free Delivery/Discounts",
+    "description": "Partnered offers for students via Gold membership or specific uni codes.",
+    "verification": "yes",
+    "location": "India",
+    "link": "https://www.zomato.com"
+  },
+  {
+    "id": 32,
+    "name": "Grammarly Student Discount",
+    "category": "productivity",
+    "discount": "Up to 50% off",
+    "description": "Premium writing assistance for essays and research papers.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.grammarly.com/students"
+  },
+  {
+    "id": 33,
+    "name": "Skillshare Student Plan",
+    "category": "education",
+    "discount": "50% off Premium",
+    "description": "Unlimited access to thousands of creative classes and workshops.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.skillshare.com/en/membership/student"
+  },
+  {
+    "id": 34,
+    "name": "Headspace Student Plan",
+    "category": "productivity",
+    "discount": "85% off",
+    "description": "Mindfulness and meditation for students at a fraction of the cost.",
+    "verification": "yes",
+    "location": "global",
+    "link": "https://www.headspace.com/studentplan"
   }
 ]
-
