@@ -1,13 +1,30 @@
-import LogoSection from '../components/LogoSection'
-import Hero from '../components/Hero'
+"use client"
 
-const Home = () => {
+import { useState } from "react"
+import Navbar from "../components/Navbar"
+import Hero from "../components/Hero"
+import LogoSection from "../components/LogoSection"
+
+export default function Page() {
+  const [searchQuery, setSearchQuery] = useState("")
+
+  const handleSearchChange = (query) => {
+    setSearchQuery(query)
+  }
+
+  const handleSearchClear = () => {
+    setSearchQuery("")
+  }
+
   return (
-    <div className='home-page'>
-        <Hero />
-        <LogoSection />
-    </div>
+    <main>
+      <Navbar 
+        searchQuery={searchQuery} 
+        onSearchChange={handleSearchChange} 
+        onSearchClear={handleSearchClear} 
+      />
+      <Hero />
+      <LogoSection />
+    </main>
   )
 }
-
-export default Home
