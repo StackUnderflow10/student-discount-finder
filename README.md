@@ -1,16 +1,76 @@
-# React + Vite
+🎓 Student Discount Finder
+Unlock the power of your .edu.in email address.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, responsive web application built with React and Vite that helps Indian students discover software, lifestyle, and tech discounts available exclusively to them. 
 
-Currently, two official plugins are available:
+🚀 Features
+🔍 Smart Search: Instantly filter discounts by brand name, category, or product type.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Categorized Deals: Browse through Software (GitHub, JetBrains), Tech (Apple, Samsung), Streaming, and Lifestyle categories.
 
-## React Compiler
+⚡ Blazing Fast: Powered by Vite for instant loading and seamless navigation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📱 Fully Responsive: Optimized for both desktop and mobile viewing.
 
-## Expanding the ESLint configuration
+🇮🇳 India Focused: Specifically curated for benefits available to students with valid Indian institutional emails (.edu.in).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+Frontend Library: React.js
+
+Build Tool: Vite
+
+Styling: Tailwind CSS
+
+Icons: Lucide 
+
+🏃‍♂️ Getting Started
+Follow these steps to set up the project locally on your machine.
+
+Prerequisites
+Make sure you have the following installed:
+
+Node.js (v16 or higher recommended)
+
+npm or yarn 
+Installation
+Clone the repository
+
+Bash
+
+git clone https://github.com/your-username/student-discount-finder.git
+cd student-discount-finder
+Install dependencies
+
+Bash
+
+npm install
+# or
+yarn install
+Start the development server
+
+Bash
+
+npm run dev
+# or
+yarn dev
+Open in Browser Visit http://localhost:5173 to view the application.
+
+🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+local discounts - src/data/discounts.json
+
+Open a Pull Request
+
+Got a new discount to add? Feel free to open an issue or submit a PR adding the deal to the data file!
+
+📜 License
+Distributed under the MIT License. See LICENSE for more information.
