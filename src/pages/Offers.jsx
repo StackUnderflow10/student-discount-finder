@@ -15,7 +15,7 @@ const Offers = () => {
             item.category.toLowerCase() === selectedCategory.toLowerCase()
         )
     },[selectedCategory])
-    //sort discounts section
+
     const sortedDiscounts = useMemo(() => {
         return[...filteredDiscounts].sort((a,b) => {
             if(sortBy === 'name'){
